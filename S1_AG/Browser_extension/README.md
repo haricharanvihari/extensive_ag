@@ -40,7 +40,7 @@ Only current-day usage is actively retained for live tracking behavior.
 
 ## Demo
 <a href="https://www.youtube.com/watch?v=29KCNZJGeG4">
-  <img src="./S1_AG/Browser_extension/icons/images/Screenshot20260410162156.png" width="400" alt="Watch the Demo here">
+  <img src="./icons/images/Screenshot20260410162156.png" width="400" alt="Watch the Demo here">
 </a>
 
 ## Installation (Developer / Local)
