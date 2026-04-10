@@ -39,7 +39,7 @@ This makes it useful for students, professionals, and anyone trying to reduce di
 Only current-day usage is actively retained for live tracking behavior.
 
 ## Demo
-[![Watch the video](https://www.youtube.com/watch?v=29KCNZJGeG4)
+[![Watch the video](https://img.youtube.com/vi/v=29KCNZJGeG4/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
 
 ## Installation (Developer / Local)
 
