@@ -1,0 +1,29 @@
+{
+  "sites": [
+    {
+      "id": "site-1775747468462-ada320",
+      "pattern": "www.youtube.com",
+      "limitSeconds": 5,
+      "snoozeSeconds": 5,
+      "enabled": true
+    },
+    {
+      "id": "site-1775747483356-66b3ea",
+      "pattern": "news.google.com",
+      "limitSeconds": 5,
+      "snoozeSeconds": 5,
+      "enabled": true
+    }
+  ],
+  "usageByDate": {
+    "2026-04-09": {
+      "site-1775747468462-ada320": 2,
+      "site-1775747483356-66b3ea": 18
+    }
+  },
+  "snoozedUntilBySite": {
+    "site-1775747483356-66b3ea": 1775747735321
+  },
+  "timerEnabled": true,
+  "updatedAt": "2026-04-09T15:15:34.727Z"
+}

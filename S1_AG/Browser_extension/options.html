@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>URL Time Guard - Options</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>URL Time Guard - Website Manager</h1>
+
+      <section class="card">
+        <h2>Timer</h2>
+        <div class="grid">
+          <label for="timerEnabled">Master Timer (all sites)</label>
+          <label class="switch">
+            <input id="timerEnabled" type="checkbox" checked />
+            <span class="slider"></span>
+          </label>
+        </div>
+        <div class="meta">Off = pauses tracking and alerts for every site.</div>
+      </section>
+
+      <section class="card">
+        <h2>Add Website</h2>
+        <div class="grid">
+          <label for="patternInput">Website URL or domain</label>
+          <input id="patternInput" type="text" placeholder="example.com" />
+
+          <label for="limitMinutesInput">Time limit</label>
+          <div>
+            <input id="limitMinutesInput" type="number" min="0" value="30" />m
+            <input id="limitSecondsInput" type="number" min="0" max="59" value="0" />s
+          </div>
+
+          <label for="snoozeMinutesInput">Snooze time</label>
+          <div>
+            <input id="snoozeMinutesInput" type="number" min="0" value="10" />m
+            <input id="snoozeSecondsInput" type="number" min="0" max="59" value="0" />s
+          </div>
+        </div>
+        <button id="addBtn">Add Website</button>
+      </section>
+
+      <section class="card">
+        <h2>Tracked Websites</h2>
+        <div id="sitesContainer"></div>
+      </section>
+
+      <section class="card">
+        <h2>Tools</h2>
+        <div class="actions">
+          <button id="exportDataBtn">Export Data JSON</button>
+          <button id="importDataBtn">Import Data JSON</button>
+          <button id="resetUsageBtn" class="danger">Reset today's usage</button>
+        </div>
+        <input id="importFileInput" type="file" accept=".json,application/json" hidden />
+        <div id="importExportStatus" class="meta"></div>
+      </section>
+    </main>
+    <template id="siteTemplate">
+      <div class="site-item">
+        <div class="site-main">
+          <div class="pattern"></div>
+          <div class="meta"></div>
+        </div>
+        <div class="actions">
+          <button class="editBtn">Edit</button>
+          <button class="deleteBtn danger">Delete</button>
+        </div>
+      </div>
+    </template>
+    <script src="options.js"></script>
+  </body>
+</html>

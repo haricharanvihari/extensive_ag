@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>URL Time Guard</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>URL Time Guard</h1>
+
+      <section class="quick-add">
+        <div class="row">
+          <label for="timerEnabled">Master Timer (all sites)</label>
+          <label class="switch">
+            <input id="timerEnabled" type="checkbox" checked />
+            <span class="slider"></span>
+          </label>
+        </div>
+        <div class="hint">Off = pauses all tracking and alerts. Site switches only work when this is on.</div>
+        <div class="current-site">
+          <strong>Current site:</strong>
+          <span id="currentHost">Not available</span>
+        </div>
+        <div class="row">
+          <label for="quickLimitMinutes">Limit</label>
+          <div>
+            <input id="quickLimitMinutes" type="number" min="0" value="30" />m
+            <input id="quickLimitSeconds" type="number" min="0" max="59" value="0" />s
+          </div>
+        </div>
+        <div class="row">
+          <label for="quickSnoozeMinutes">Snooze</label>
+          <div>
+            <input id="quickSnoozeMinutes" type="number" min="0" value="10" />m
+            <input id="quickSnoozeSeconds" type="number" min="0" max="59" value="0" />s
+          </div>
+        </div>
+        <button id="addCurrentBtn">Add Current Site</button>
+      </section>
+
+      <section class="alerts">
+        <h2>Active Alerts</h2>
+        <div id="alertsList" class="list"></div>
+      </section>
+
+      <section class="sites">
+        <h2>Tracked Sites</h2>
+        <div id="sitesList" class="list"></div>
+      </section>
+
+      <footer>
+        <button id="openOptionsBtn">Open Full Manager</button>
+      </footer>
+    </main>
+
+    <template id="siteItemTemplate">
+      <div class="item">
+        <div class="item-main">
+          <div class="pattern"></div>
+          <div class="meta"></div>
+          <div class="edit-panel hidden">
+            <div class="row">
+              <label>URL</label>
+              <input class="editPattern" type="text" />
+            </div>
+            <div class="row">
+              <label>Limit</label>
+              <div>
+                <input class="editLimitMinutes" type="number" min="0" />m
+                <input class="editLimitSeconds" type="number" min="0" max="59" />s
+              </div>
+            </div>
+            <div class="row">
+              <label>Snooze</label>
+              <div>
+                <input class="editSnoozeMinutes" type="number" min="0" />m
+                <input class="editSnoozeSeconds" type="number" min="0" max="59" />s
+              </div>
+            </div>
+            <div class="row">
+              <button class="saveEditBtn">Save</button>
+              <button class="cancelEditBtn">Cancel</button>
+            </div>
+          </div>
+        </div>
+        <div class="item-actions">
+          <label class="site-toggle-wrap">
+            <span>Site Limit</span>
+            <label class="switch">
+              <input class="siteEnabledToggle" type="checkbox" />
+              <span class="slider"></span>
+            </label>
+          </label>
+          <button class="editBtn">Edit</button>
+          <button class="deleteBtn danger">Delete</button>
+        </div>
+      </div>
+    </template>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
