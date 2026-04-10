@@ -38,6 +38,9 @@ This makes it useful for students, professionals, and anyone trying to reduce di
 
 Only current-day usage is actively retained for live tracking behavior.
 
+## Demo
+[![Watch the video](https://www.youtube.com/watch?v=29KCNZJGeG4)
+
 ## Installation (Developer / Local)
 
 1. Open Firefox and go to `about:debugging#/runtime/this-firefox`.
