@@ -15,7 +15,7 @@ A powerful Firefox extension designed to streamline your research workflow by ca
 Demo
 ## Demo (Click below thumbnail)
 <a href="https://www.youtube.com/watch?v=N-xyUzi-5rY">
-  <img src="./icon.png" width="400" alt="Watch the Demo here">
+  <img src="./icon.png" width="250" alt="Watch the Demo here">
 </a>
 
 ## 🛠️ Installation (Developer Mode)
