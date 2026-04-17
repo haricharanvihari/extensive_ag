@@ -2,8 +2,6 @@
 
 A powerful Firefox extension designed to streamline your research workflow by capturing, consolidating, and managing browser tabs with AI-powered summarization and automated backup capabilities.
 
-![Extension Preview](extension_icon_1776431456368.png)
-
 ## 🚀 Key Features
 
 - **One-Click Capture**: Instantly captures all open tabs across your browser and closes them to declutter your workspace.
@@ -13,6 +11,12 @@ A powerful Firefox extension designed to streamline your research workflow by ca
 - **Automated JSON Backups**: Every capture triggers an automatic JSON export to your local storage for data sovereignty.
 - **Omnivore Folder Import**: Easily restore your entire history by pointing the extension to a folder containing your backup JS files.
 - **Full Library Manager**: A dedicated full-page interface for managing your history, reopening sets of tabs, and performing manual database exports.
+
+Demo
+## Demo (Click below thumbnail)
+<a href="https://www.youtube.com/watch?v=N-xyUzi-5rY">
+  <img src="./Launch_Tab/icon.png" width="400" alt="Watch the Demo here">
+</a>
 
 ## 🛠️ Installation (Developer Mode)
 
