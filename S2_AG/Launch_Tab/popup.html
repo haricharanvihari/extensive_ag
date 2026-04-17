@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Catcher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tab Catcher</h1>
+            <p class="subtitle">Organize your browsing sessions</p>
+        </header>
+
+        <section class="action-zone">
+            <button id="captureBtn" class="primary-btn">
+                <span class="icon">📥</span> Capture & Close All Tabs
+            </button>
+        </section>
+
+        <section class="sessions-zone">
+            <div class="section-header">
+                <h2>Daily Sessions</h2>
+                <div class="header-actions">
+                    <button id="importFolderBtn" class="text-btn">📁 Import Folder</button>
+                    <input type="file" id="importInput" webkitdirectory directory multiple style="display:none">
+                </div>
+            </div>
+            <div id="sessionsList" class="sessions-list">
+                <!-- Consolidated daily sessions injected here -->
+                <div class="loading-spinner">Initializing session history...</div>
+            </div>
+        </section>
+
+        <footer>
+            <div id="statusBar" class="status-bar" style="display:none">
+                <span id="statusText">Ready</span>
+            </div>
+            <button id="exportBtn" class="secondary-btn">Export All Data</button>
+        </footer>
+    </div>
+    <script type="module" src="popup.js"></script>
+</body>
+</html>

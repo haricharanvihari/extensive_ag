@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Catcher - Advanced Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { width: 100vw; height: 100vh; overflow-x: hidden; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px; }
+        .sessions-list { max-height: none; }
+        .section-header { margin-bottom: 30px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Session Manager</h1>
+            <p class="subtitle">Import, export, and manage your consolidated browser history</p>
+        </header>
+
+        <section class="action-zone" style="margin-bottom: 40px;">
+            <div class="header-actions" style="display: flex; gap: 20px;">
+                <button id="importFolderBtn" class="primary-btn" style="flex: 1;">
+                    📁 Select Import Folder
+                </button>
+                <button id="exportAllBtn" class="secondary-btn" style="flex: 1;">
+                    💾 Export All Backups
+                </button>
+            </div>
+            <input type="file" id="importInput" webkitdirectory directory multiple style="display:none">
+        </section>
+
+        <section class="sessions-zone">
+            <div class="section-header">
+                <h2>History Library</h2>
+            </div>
+            <div id="sessionsList" class="sessions-list">
+                <div class="loading-spinner">Waking up database...</div>
+            </div>
+        </section>
+
+        <footer>
+            <div id="statusBar" class="status-bar" style="margin-top: 20px;">
+                <span id="statusText" style="font-size: 1rem;">Ready</span>
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="manager.js"></script>
+</body>
+</html>
