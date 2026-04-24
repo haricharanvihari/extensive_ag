@@ -1,6 +1,6 @@
-# Metal Price AI Agent (Firefox Extension)
+# Metal Price Agent (Firefox Extension)
 
-Metal Price AI Agent is an agentic AI-powered Firefox extension and Python tool that calculates the final purchase cost of gold and silver in India. It considers live market prices from Yahoo Finance, real-time USD to INR exchange rates, making charges, and the specific Indian GST structure (3% on metal, 5% on making charges).
+Metal Price Agent is an agentic AI-powered Firefox extension and Python tool that calculates the final purchase cost of gold and silver in India. It considers live market prices from Yahoo Finance, real-time USD to INR exchange rates, making charges, and the specific Indian GST structure (3% on metal, 5% on making charges).
 
 ## Project Description
 
@@ -72,4 +72,3 @@ The extension uses the **Gemini 3.1 Flash** model to drive a step-by-step reason
 - `popup.css`: The "Glassmorphism" styling and animations.
 - `metal_price.py`: Standalone Python version of the agent for CLI use.
 - `.env`: (Local) Configuration for the Python agent.
-- `README.md`: This documentation.
