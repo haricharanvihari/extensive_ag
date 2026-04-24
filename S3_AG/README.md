@@ -39,6 +39,9 @@ Demo
   <img src="./icon.png" width="250" alt="Watch the Demo here">
 </a>
 
+## LLM Logs
+[Click here for LLM Logs](https://github.com/haricharanvihari/extensive_ag/blob/main/S3_AG/LLM_Logs.md)
+
 ## Installation (Developer / Local)
 
 1. Open Firefox and go to `about:debugging#/runtime/this-firefox`.
