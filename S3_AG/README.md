@@ -35,7 +35,7 @@ The extension uses the **Gemini 3.1 Flash** model to drive a step-by-step reason
 
 Demo
 ## Demo (Click below thumbnail)
-<a href="https://www.youtube.com/watch?v=PoNrDX9HMjI">
+<a href="https://www.youtube.com/watch?v=BZs2ofkDiCM">
   <img src="./icon.png" width="250" alt="Watch the Demo here">
 </a>
 
