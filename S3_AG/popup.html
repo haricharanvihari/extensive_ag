@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Metal Price AI</h1>
+            <button id="settings-toggle" class="settings-btn">⚙️</button>
+        </header>
+
+        <div id="settings-panel" class="card">
+            <label>Gemini API Key</label>
+            <input type="password" id="api-key" placeholder="Loaded from .env (default)">
+            <button id="save-settings" style="margin-top: 10px;">Override settings</button>
+        </div>
+
+        <div id="main-panel">
+            <div class="card">
+                <div class="input-group" style="display: flex; align-items: center; gap: 10px;">
+                    <input type="checkbox" id="gold-enable" checked style="width: 20px;">
+                    <div style="flex-grow: 1;">
+                        <label>Gold (grams)</label>
+                        <input type="number" id="gold-weight" value="10" step="0.1">
+                    </div>
+                </div>
+                <div class="input-group" style="display: flex; align-items: center; gap: 10px;">
+                    <input type="checkbox" id="silver-enable" checked style="width: 20px;">
+                    <div style="flex-grow: 1;">
+                        <label>Silver (grams)</label>
+                        <input type="number" id="silver-weight" value="50" step="0.1">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label>Making Charges (%)</label>
+                    <input type="number" id="making-charge" value="10" step="0.5">
+                </div>
+                
+                <div style="font-size: 0.75rem; color: #888; margin-bottom: 15px; padding: 10px; background: rgba(0,0,0,0.2); border-radius: 6px;">
+                    <div style="display: flex; justify-content: space-between;">
+                        <span>GST on Metal:</span> <span style="color: var(--primary);">3%</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <span>GST on Making:</span> <span style="color: var(--primary);">5%</span>
+                    </div>
+                </div>
+                
+                <button id="calculate-btn">Calculate final value including tax</button>
+            </div>
+
+            <div class="reasoning-container">
+                <div class="reasoning-label">Reasoning Chain</div>
+                <div id="reasoning-log">
+                    <div class="log-entry log-thought" id="conn-status">SYSTEM: Connecting to logic...</div>
+                </div>
+            </div>
+
+            <div id="result-area" class="card hidden" style="background: rgba(0, 212, 255, 0.05); border-color: var(--accent); margin-top: 20px;">
+                <div style="color: var(--accent); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Final Estimation</div>
+                <div id="final-answer" style="font-size: 0.85rem; line-height: 1.5; color: #fff;">
+                    <!-- Agent's final answer will appear here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="agent.js"></script>
+</body>
+</html>
