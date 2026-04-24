@@ -33,6 +33,12 @@ The extension uses the **Gemini 3.1 Flash** model to drive a step-by-step reason
 5. **Logic**: The Agent determines all values are present and calls `calculate_gst_breakdown`.
 6. **Final Answer**: The Agent formats a human-readable response with the total cost and tax breakdown.
 
+Demo
+## Demo (Click below thumbnail)
+<a href="https://www.youtube.com/watch?v=PoNrDX9HMjI">
+  <img src="./icon.png" width="250" alt="Watch the Demo here">
+</a>
+
 ## Installation (Developer / Local)
 
 1. Open Firefox and go to `about:debugging#/runtime/this-firefox`.
