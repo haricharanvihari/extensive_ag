@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Market Gainer AI",
+  "version": "1.0.3",
+  "description": "Firefox extension for tracking private company 52-week gainers.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "downloads"
+  ],
+  "host_permissions": [
+    "https://finance.yahoo.com/*",
+    "http://localhost/*",
+    "http://127.0.0.1/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
