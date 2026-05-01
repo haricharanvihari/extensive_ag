@@ -30,6 +30,14 @@ Many investors struggle to track fast-moving private market data. Market Gainer 
 4. **Visualize:** The Starlette server re-renders the Prefab UI dashboard using the latest discovered file.
 5. **Analyze:** User interacts with the dashboard using Quick Filters and tooltips to identify high-momentum targets.
 
+## Demo
+
+Demo
+## Demo (Click below thumbnail)
+<a href="https://www.youtube.com/watch?v=RjZrBwcbWr8">
+  <img src="./icon.png" width="250" alt="Watch the Demo here">
+</a>
+
 ## Installation (Developer / Local)
 
 ### 1. Python Server Setup
