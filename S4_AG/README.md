@@ -81,4 +81,4 @@ Thought: {"tool_name": "list_tools", "tool_arguments": {}}
 - `popup.js` / `popup.html`: The Firefox extension frontend and scraping logic.
 - `manifest.json`: Extension metadata and permissions.
 - `data/`: Local storage for historical gainer JSON files.
-- `server_log.txt`: Real-time system diagnostics.
+- `log.txt`: Real-time system flow.
