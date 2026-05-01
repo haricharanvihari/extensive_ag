@@ -1,6 +1,6 @@
 # Market Gainer AI (Market Intelligence System)
 
-Market Gainer AI is a sophisticated market intelligence system that combines a Firefox extension for real-time data scraping with a Python-based MCP (Model Context Protocol) server. It features an interactive dashboard that visualizes private company 52-week gainers using high-performance charts and agentic reasoning simulations.
+Market Gainer AI is a market intelligence system that combines a Firefox extension for real-time data scraping with a MCP (Model Context Protocol) server. It features an interactive dashboard that visualizes private company 52-week gainers using high-performance charts and agentic reasoning simulations.
 
 ## Project Description
 
