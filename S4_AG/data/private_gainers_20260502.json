@@ -1,1 +1,766 @@
 
+[
+  {
+    "symbol": "KLSH.PVT",
+    "name": "Kalshi",
+    "price": "653.25",
+    "change": "+1,878.95%",
+    "year_change": "+1,878.95%"
+  },
+  {
+    "symbol": "POLA.PVT",
+    "name": "Polymarket",
+    "price": "144.08",
+    "change": "+1,605.09%",
+    "year_change": "+1,605.09%"
+  },
+  {
+    "symbol": "REPI.PVT",
+    "name": "Replit",
+    "price": "268.12",
+    "change": "+495.82%",
+    "year_change": "+495.82%"
+  },
+  {
+    "symbol": "WHOO.PVT",
+    "name": "WHOOP",
+    "price": "11.23",
+    "change": "+494.18%",
+    "year_change": "+494.18%"
+  },
+  {
+    "symbol": "ANTH.PVT",
+    "name": "Anthropic",
+    "price": "264.57",
+    "change": "+371.69%",
+    "year_change": "+371.69%"
+  },
+  {
+    "symbol": "CUES.PVT",
+    "name": "Crusoe Energy Systems",
+    "price": "123.05",
+    "change": "+321.84%",
+    "year_change": "+321.84%"
+  },
+  {
+    "symbol": "EISL.PVT",
+    "name": "Eight Sleep",
+    "price": "5.76",
+    "change": "+300.00%",
+    "year_change": "+300.00%"
+  },
+  {
+    "symbol": "CESY.PVT",
+    "name": "Cerebras Systems",
+    "price": "113.50",
+    "change": "+294.37%",
+    "year_change": "+294.37%"
+  },
+  {
+    "symbol": "SPAX.PVT",
+    "name": "SpaceX",
+    "price": "623.04",
+    "change": "+208.68%",
+    "year_change": "+208.68%"
+  },
+  {
+    "symbol": "INTC.PVT",
+    "name": "Intercom",
+    "price": "51.46",
+    "change": "+202.71%",
+    "year_change": "+202.71%"
+  },
+  {
+    "symbol": "LAMD.PVT",
+    "name": "Lambda",
+    "price": "55.00",
+    "change": "+191.47%",
+    "year_change": "+191.47%"
+  },
+  {
+    "symbol": "SKIA.PVT",
+    "name": "Skild AI",
+    "price": "66.39",
+    "change": "+183.11%",
+    "year_change": "+183.11%"
+  },
+  {
+    "symbol": "STOS.PVT",
+    "name": "Stoke Space",
+    "price": "49.92",
+    "change": "+149.85%",
+    "year_change": "+149.85%"
+  },
+  {
+    "symbol": "DITD.PVT",
+    "name": "Divergent 3D",
+    "price": "29.41",
+    "change": "+145.08%",
+    "year_change": "+145.08%"
+  },
+  {
+    "symbol": "RAMP.PVT",
+    "name": "Ramp",
+    "price": "94.17",
+    "change": "+140.23%",
+    "year_change": "+140.23%"
+  },
+  {
+    "symbol": "TATE.PVT",
+    "name": "TAE Technologies",
+    "price": "45.00",
+    "change": "+137.72%",
+    "year_change": "+137.72%"
+  },
+  {
+    "symbol": "MOTV.PVT",
+    "name": "Motive",
+    "price": "15.75",
+    "change": "+137.56%",
+    "year_change": "+137.56%"
+  },
+  {
+    "symbol": "OPAI.PVT",
+    "name": "OpenAI",
+    "price": "715.37",
+    "change": "+115.65%",
+    "year_change": "+115.65%"
+  },
+  {
+    "symbol": "VERC.PVT",
+    "name": "Vercel",
+    "price": "175.01",
+    "change": "+114.47%",
+    "year_change": "+114.47%"
+  },
+  {
+    "symbol": "NETS.PVT",
+    "name": "Netskope",
+    "price": "22.49",
+    "change": "+106.52%",
+    "year_change": "+106.52%"
+  },
+  {
+    "symbol": "STRI.PVT",
+    "name": "Stripe",
+    "price": "72.45",
+    "change": "+101.53%",
+    "year_change": "+101.53%"
+  },
+  {
+    "symbol": "PEAI.PVT",
+    "name": "Perplexity",
+    "price": "69.54",
+    "change": "+98.91%",
+    "year_change": "+98.91%"
+  },
+  {
+    "symbol": "SHAI.PVT",
+    "name": "Shield AI",
+    "price": "153.68",
+    "change": "+97.41%",
+    "year_change": "+97.41%"
+  },
+  {
+    "symbol": "ABRI.PVT",
+    "name": "Abridge",
+    "price": "170.00",
+    "change": "+88.87%",
+    "year_change": "+88.87%"
+  },
+  {
+    "symbol": "AGRO.PVT",
+    "name": "Agility Robotics",
+    "price": "68.73",
+    "change": "+86.46%",
+    "year_change": "+86.46%"
+  },
+  {
+    "symbol": "ANIN.PVT",
+    "name": "Anduril Industries",
+    "price": "112.56",
+    "change": "+86.23%",
+    "year_change": "+86.23%"
+  },
+  {
+    "symbol": "DATB.PVT",
+    "name": "Databricks",
+    "price": "196.31",
+    "change": "+81.92%",
+    "year_change": "+81.92%"
+  },
+  {
+    "symbol": "ZIPL.PVT",
+    "name": "Zipline",
+    "price": "49.68",
+    "change": "+73.71%",
+    "year_change": "+73.71%"
+  },
+  {
+    "symbol": "GROQ.PVT",
+    "name": "Groq",
+    "price": "29.77",
+    "change": "+68.38%",
+    "year_change": "+68.38%"
+  },
+  {
+    "symbol": "RIPL.PVT",
+    "name": "Ripple",
+    "price": "106.30",
+    "change": "+55.05%",
+    "year_change": "+55.05%"
+  },
+  {
+    "symbol": "KRAK.PVT",
+    "name": "Kraken",
+    "price": "32.52",
+    "change": "+46.35%",
+    "year_change": "+46.35%"
+  },
+  {
+    "symbol": "CRES.PVT",
+    "name": "Cresta",
+    "price": "5.03",
+    "change": "+43.71%",
+    "year_change": "+43.71%"
+  },
+  {
+    "symbol": "NEUR.PVT",
+    "name": "Neuralink",
+    "price": "75.62",
+    "change": "+43.06%",
+    "year_change": "+43.06%"
+  },
+  {
+    "symbol": "HARN.PVT",
+    "name": "Harness",
+    "price": "20.19",
+    "change": "+42.48%",
+    "year_change": "+42.48%"
+  },
+  {
+    "symbol": "GERO.PVT",
+    "name": "Gecko Robotics",
+    "price": "45.00",
+    "change": "+42.45%",
+    "year_change": "+42.45%"
+  },
+  {
+    "symbol": "CONS.PVT",
+    "name": "Consensys",
+    "price": "30.00",
+    "change": "+40.65%",
+    "year_change": "+40.65%"
+  },
+  {
+    "symbol": "DISO.PVT",
+    "name": "Discord",
+    "price": "31.36",
+    "change": "+30.83%",
+    "year_change": "+30.83%"
+  },
+  {
+    "symbol": "UPGR.PVT",
+    "name": "Upgrade",
+    "price": "3.25",
+    "change": "+30.00%",
+    "year_change": "+30.00%"
+  },
+  {
+    "symbol": "DRAG.PVT",
+    "name": "Dragos",
+    "price": "20.00",
+    "change": "+29.03%",
+    "year_change": "+29.03%"
+  },
+  {
+    "symbol": "LEOL.PVT",
+    "name": "LeoLabs",
+    "price": "2.80",
+    "change": "+29.03%",
+    "year_change": "+29.03%"
+  },
+  {
+    "symbol": "DRUV.PVT",
+    "name": "Druva",
+    "price": "3.62",
+    "change": "+24.83%",
+    "year_change": "+24.83%"
+  },
+  {
+    "symbol": "BREX.PVT",
+    "name": "Brex",
+    "price": "12.16",
+    "change": "+24.72%",
+    "year_change": "+24.72%"
+  },
+  {
+    "symbol": "THFD.PVT",
+    "name": "The Farmer's Dog",
+    "price": "26.50",
+    "change": "+23.60%",
+    "year_change": "+23.60%"
+  },
+  {
+    "symbol": "THMA.PVT",
+    "name": "Thrive Market",
+    "price": "22.14",
+    "change": "+23.00%",
+    "year_change": "+23.00%"
+  },
+  {
+    "symbol": "FLEP.PVT",
+    "name": "Flexport",
+    "price": "3.56",
+    "change": "+22.76%",
+    "year_change": "+22.76%"
+  },
+  {
+    "symbol": "PSIQ.PVT",
+    "name": "PsiQuantum",
+    "price": "33.00",
+    "change": "+19.57%",
+    "year_change": "+19.57%"
+  },
+  {
+    "symbol": "ADDE.PVT",
+    "name": "Addepar",
+    "price": "3.50",
+    "change": "+18.64%",
+    "year_change": "+18.64%"
+  },
+  {
+    "symbol": "WORA.PVT",
+    "name": "Workato",
+    "price": "6.78",
+    "change": "+16.90%",
+    "year_change": "+16.90%"
+  },
+  {
+    "symbol": "AVIA.PVT",
+    "name": "Aviatrix",
+    "price": "3.48",
+    "change": "+16.00%",
+    "year_change": "+16.00%"
+  },
+  {
+    "symbol": "STDA.PVT",
+    "name": "Starburst Data",
+    "price": "0.70",
+    "change": "+11.11%",
+    "year_change": "+11.11%"
+  },
+  {
+    "symbol": "GLEA.PVT",
+    "name": "Glean",
+    "price": "52.03",
+    "change": "+10.70%",
+    "year_change": "+10.70%"
+  },
+  {
+    "symbol": "MERC.PVT",
+    "name": "Mercury",
+    "price": "14.50",
+    "change": "+9.85%",
+    "year_change": "+9.85%"
+  },
+  {
+    "symbol": "EPGA.PVT",
+    "name": "Epic Games",
+    "price": "479.75",
+    "change": "+9.59%",
+    "year_change": "+9.59%"
+  },
+  {
+    "symbol": "VERK.PVT",
+    "name": "Verkada",
+    "price": "9.32",
+    "change": "+8.12%",
+    "year_change": "+8.12%"
+  },
+  {
+    "symbol": "SAAQ.PVT",
+    "name": "SandboxAQ",
+    "price": "15.25",
+    "change": "+3.39%",
+    "year_change": "+3.39%"
+  },
+  {
+    "symbol": "AUAN.PVT",
+    "name": "Automation Anywhere",
+    "price": "3.90",
+    "change": "+2.90%",
+    "year_change": "+2.90%"
+  },
+  {
+    "symbol": "EPIR.PVT",
+    "name": "Epirus",
+    "price": "2.79",
+    "change": "+0.72%",
+    "year_change": "+0.72%"
+  },
+  {
+    "symbol": "ARWO.PVT",
+    "name": "Arctic Wolf",
+    "price": "8.00",
+    "change": "0.00%",
+    "year_change": "0.00%"
+  },
+  {
+    "symbol": "COHS.PVT",
+    "name": "Cohesity",
+    "price": "15.67",
+    "change": "0.00%",
+    "year_change": "0.00%"
+  },
+  {
+    "symbol": "CRIB.PVT",
+    "name": "Cribl",
+    "price": "4.86",
+    "change": "0.00%",
+    "year_change": "0.00%"
+  },
+  {
+    "symbol": "EGNY.PVT",
+    "name": "Egnyte",
+    "price": "8.49",
+    "change": "0.00%",
+    "year_change": "0.00%"
+  },
+  {
+    "symbol": "ENRX.PVT",
+    "name": "EnergyX",
+    "price": "5.67",
+    "change": "0.00%",
+    "year_change": "0.00%"
+  },
+  {
+    "symbol": "FANA.PVT",
+    "name": "Fanatics",
+    "price": "42.00",
+    "change": "0.00%",
+    "year_change": "0.00%"
+  },
+  {
+    "symbol": "FIRB.PVT",
+    "name": "Firebolt",
+    "price": "2.60",
+    "change": "0.00%",
+    "year_change": "0.00%"
+  },
+  {
+    "symbol": "GREE.PVT",
+    "name": "Greenlight",
+    "price": "15.76",
+    "change": "0.00%",
+    "year_change": "0.00%"
+  },
+  {
+    "symbol": "SISE.PVT",
+    "name": "Sisense",
+    "price": "0.40",
+    "change": "0.00%",
+    "year_change": "0.00%"
+  },
+  {
+    "symbol": "TANI.PVT",
+    "name": "Tanium",
+    "price": "5.40",
+    "change": "0.00%",
+    "year_change": "0.00%"
+  },
+  {
+    "symbol": "WYLA.PVT",
+    "name": "Wyze Labs",
+    "price": "3.00",
+    "change": "0.00%",
+    "year_change": "0.00%"
+  },
+  {
+    "symbol": "LIG.PVT",
+    "name": "Lightmatter",
+    "price": "55.20",
+    "change": "-1.97%",
+    "year_change": "-1.97%"
+  },
+  {
+    "symbol": "LIDE.PVT",
+    "name": "Liquid Death",
+    "price": "8.75",
+    "change": "-2.78%",
+    "year_change": "-2.78%"
+  },
+  {
+    "symbol": "COLH.PVT",
+    "name": "Collective Health",
+    "price": "0.18",
+    "change": "-5.26%",
+    "year_change": "-5.26%"
+  },
+  {
+    "symbol": "PATR.PVT",
+    "name": "Patreon",
+    "price": "10.81",
+    "change": "-5.75%",
+    "year_change": "-5.75%"
+  },
+  {
+    "symbol": "VECR.PVT",
+    "name": "Vectra AI",
+    "price": "4.96",
+    "change": "-6.77%",
+    "year_change": "-6.77%"
+  },
+  {
+    "symbol": "AIR.PVT",
+    "name": "Airtable",
+    "price": "57.26",
+    "change": "-7.00%",
+    "year_change": "-7.00%"
+  },
+  {
+    "symbol": "NEWS.PVT",
+    "name": "Newsela",
+    "price": "5.84",
+    "change": "-7.01%",
+    "year_change": "-7.01%"
+  },
+  {
+    "symbol": "BIGI.PVT",
+    "name": "BigID",
+    "price": "1.93",
+    "change": "-7.21%",
+    "year_change": "-7.21%"
+  },
+  {
+    "symbol": "RAPP.PVT",
+    "name": "Rappi",
+    "price": "21.33",
+    "change": "-10.04%",
+    "year_change": "-10.04%"
+  },
+  {
+    "symbol": "POSM.PVT",
+    "name": "Postman",
+    "price": "10.45",
+    "change": "-12.92%",
+    "year_change": "-12.92%"
+  },
+  {
+    "symbol": "SINA.PVT",
+    "name": "Sila Nanotechnologies",
+    "price": "13.86",
+    "change": "-13.38%",
+    "year_change": "-13.38%"
+  },
+  {
+    "symbol": "OUTR.PVT",
+    "name": "Outreach",
+    "price": "1.98",
+    "change": "-13.54%",
+    "year_change": "-13.54%"
+  },
+  {
+    "symbol": "TURO.PVT",
+    "name": "Turo",
+    "price": "9.87",
+    "change": "-13.72%",
+    "year_change": "-13.72%"
+  },
+  {
+    "symbol": "INNA.PVT",
+    "name": "Innovaccer",
+    "price": "2.74",
+    "change": "-16.72%",
+    "year_change": "-16.72%"
+  },
+  {
+    "symbol": "RIPP.PVT",
+    "name": "Rippling",
+    "price": "43.76",
+    "change": "-17.43%",
+    "year_change": "-17.43%"
+  },
+  {
+    "symbol": "LOOR.PVT",
+    "name": "Loft Orbital",
+    "price": "14.50",
+    "change": "-18.03%",
+    "year_change": "-18.03%"
+  },
+  {
+    "symbol": "ATTE.PVT",
+    "name": "Attentive",
+    "price": "6.03",
+    "change": "-18.07%",
+    "year_change": "-18.07%"
+  },
+  {
+    "symbol": "CIHE.PVT",
+    "name": "Cityblock Health",
+    "price": "15.38",
+    "change": "-19.05%",
+    "year_change": "-19.05%"
+  },
+  {
+    "symbol": "REMA.PVT",
+    "name": "Redwood Materials",
+    "price": "35.79",
+    "change": "-19.74%",
+    "year_change": "-19.74%"
+  },
+  {
+    "symbol": "INSA.PVT",
+    "name": "Instabase",
+    "price": "3.97",
+    "change": "-21.39%",
+    "year_change": "-21.39%"
+  },
+  {
+    "symbol": "SANS.PVT",
+    "name": "SambaNova",
+    "price": "20.00",
+    "change": "-22.39%",
+    "year_change": "-22.39%"
+  },
+  {
+    "symbol": "WORR.PVT",
+    "name": "Workrise",
+    "price": "85.00",
+    "change": "-22.47%",
+    "year_change": "-22.47%"
+  },
+  {
+    "symbol": "DTMR.PVT",
+    "name": "Dataminr",
+    "price": "8.53",
+    "change": "-26.97%",
+    "year_change": "-26.97%"
+  },
+  {
+    "symbol": "ZOCD.PVT",
+    "name": "Zocdoc",
+    "price": "5.00",
+    "change": "-27.75%",
+    "year_change": "-27.75%"
+  },
+  {
+    "symbol": "APSC.PVT",
+    "name": "Apeel Sciences",
+    "price": "1.32",
+    "change": "-28.26%",
+    "year_change": "-28.26%"
+  },
+  {
+    "symbol": "NEFJ.PVT",
+    "name": "Neo4j",
+    "price": "6.48",
+    "change": "-28.56%",
+    "year_change": "-28.56%"
+  },
+  {
+    "symbol": "STRV.PVT",
+    "name": "Strava",
+    "price": "13.99",
+    "change": "-30.05%",
+    "year_change": "-30.05%"
+  },
+  {
+    "symbol": "IMPF.PVT",
+    "name": "Impossible Foods",
+    "price": "1.51",
+    "change": "-32.89%",
+    "year_change": "-32.89%"
+  },
+  {
+    "symbol": "AVTN.PVT",
+    "name": "Avathon",
+    "price": "3.60",
+    "change": "-33.94%",
+    "year_change": "-33.94%"
+  },
+  {
+    "symbol": "KORE.PVT",
+    "name": "Kore.ai",
+    "price": "9.50",
+    "change": "-33.98%",
+    "year_change": "-33.98%"
+  },
+  {
+    "symbol": "FLOQ.PVT",
+    "name": "FloQast",
+    "price": "8.24",
+    "change": "-34.08%",
+    "year_change": "-34.08%"
+  },
+  {
+    "symbol": "NURO.PVT",
+    "name": "Nuro",
+    "price": "8.43",
+    "change": "-34.09%",
+    "year_change": "-34.09%"
+  },
+  {
+    "symbol": "ACOR.PVT",
+    "name": "Acorns",
+    "price": "2.91",
+    "change": "-34.61%",
+    "year_change": "-34.61%"
+  },
+  {
+    "symbol": "CHAA.PVT",
+    "name": "Chainalysis",
+    "price": "7.25",
+    "change": "-34.98%",
+    "year_change": "-34.98%"
+  },
+  {
+    "symbol": "THSP.PVT",
+    "name": "ThoughtSpot",
+    "price": "3.09",
+    "change": "-37.45%",
+    "year_change": "-37.45%"
+  },
+  {
+    "symbol": "APOL.PVT",
+    "name": "Apollo.io",
+    "price": "10.00",
+    "change": "-37.50%",
+    "year_change": "-37.50%"
+  },
+  {
+    "symbol": "SIST.PVT",
+    "name": "SingleStore",
+    "price": "1.51",
+    "change": "-40.08%",
+    "year_change": "-40.08%"
+  },
+  {
+    "symbol": "BLOO.PVT",
+    "name": "Bloomreach",
+    "price": "3.99",
+    "change": "-43.00%",
+    "year_change": "-43.00%"
+  },
+  {
+    "symbol": "HTWO.PVT",
+    "name": "H2O.ai",
+    "price": "2.32",
+    "change": "-49.89%",
+    "year_change": "-49.89%"
+  },
+  {
+    "symbol": "SIXS.PVT",
+    "name": "6sense",
+    "price": "3.38",
+    "change": "-65.62%",
+    "year_change": "-65.62%"
+  },
+  {
+    "symbol": "DATO.PVT",
+    "name": "DataRobot",
+    "price": "0.72",
+    "change": "-66.51%",
+    "year_change": "-66.51%"
+  }
+]
