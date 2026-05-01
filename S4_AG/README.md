@@ -51,11 +51,11 @@ Many investors struggle to track fast-moving private market data. Market Gainer 
 
 ## Usage Guide
 
-1. **Launch**: Start the Python client to see the Agentic Reasoning steps and activate the server.
-2. **Scrape**: Open Yahoo Finance (Private Gainers page) and click the extension icon.
-3. **Sync**: Click **Fetch Latest Gainers**, then click the orange **Push to UI** button.
-4. **Explore**: Open `http://127.0.0.1:8888` in your browser.
-5. **Filter**: Click any symbol in the **🎯 Quick Filter** row to isolate that company's performance.
+1. **Launch**: Start the Python client to see the Agentic Reasoning steps and activate the server.                             [python python market_gainer_client.py]
+3. **Scrape**: Open Yahoo Finance (Private Gainers page) and click the extension icon.
+4. **Sync**: Click **Fetch Latest Gainers**, then click the orange **Push to UI** button.
+5. **Explore**: Open `http://127.0.0.1:8888` in your browser.
+6. **Filter**: Click any symbol in the **🎯 Quick Filter** row to isolate that company's performance.
 
 ## Agentic Reasoning Simulation
 
