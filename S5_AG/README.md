@@ -42,8 +42,7 @@ The core prompt is qualified against the **F1 Criteria** for structured reasonin
 | **Internal Self-Checks** | ✅ | **Crucial:** Sums meals and verifies against TDEE. |
 | **Fallbacks** | ✅ | Specifies behavior for missing data or invalid inputs. |
 
-## Demo
-### Demo (Click below thumbnail)
+## Demo (Click below thumbnail)
 <a href="https://www.youtube.com/watch?v=BmqwBlcMnFM">
   <img src="./icon.png" width="250" alt="Watch the Demo here">
 </a>
