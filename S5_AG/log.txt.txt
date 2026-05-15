@@ -1,0 +1,64 @@
+PS E:\Daily Calorie Planner> uv run daily_calorie_planner.py
+--- Precision Calorie Planner Agent ---
+Enter Weight (kg): 70
+Enter Height (cm): 175
+Enter Age (years): 25
+Enter Gender (male/female): male
+
+Activity Levels: sedentary, light, moderate, very active
+Enter Activity Level: moderate
+
+Goals: lose, maintain, gain
+Enter Goal: lose
+
+--- FINAL AGENT OUTPUT (JSON) ---
+{
+  "reasoning_log": [
+    "Step 2 (BMR): Calculated 1673.75 kcal using Mifflin-St Jeor.",
+    "Step 3 (TDEE): Applied moderate multiplier. Result: 2594.31 kcal.",
+    "Step 4 (ADJUST): Applied -500 kcal deficit for weight loss.",
+    "Step 5 (MACROS): Distributed calories as 30/40/30 split. P:157.1g, C:209.4g, F:69.8g.",
+    "Step 6 (MEALS): Distributed into 3 meals. Applied Error Absorption on last meal to ensure 100% accuracy.",
+    "Step 7 (VERIFY): Sum of meals is 2094.0 kcal. Target: 2094.0 kcal. Status: PASS"
+  ],
+  "stats": {
+    "bmr": 1674.0,
+    "tdee": 2594.0,
+    "target": 2094.0
+  },
+  "macros": {
+    "protein": 157.1,
+    "carbs": 209.4,
+    "fats": 69.8
+  },
+  "meals": [
+    {
+      "name": "Meal 1",
+      "protein": 26.2,
+      "carbs": 69.8,
+      "fats": 23.3,
+      "calories": 698.0
+    },
+    {
+      "name": "Meal 2",
+      "protein": 52.4,
+      "carbs": 69.8,
+      "fats": 23.3,
+      "calories": 698.0
+    },
+    {
+      "name": "Meal 3",
+      "protein": 78.5,
+      "carbs": 69.8,
+      "name": "Meal 3",
+      "protein": 78.5,
+      "fats": 23.3,
+      "calories": 698.0
+    }
+  ],
+  "verification": {
+    "status": "PASS",
+    "error_margin": "0.00 kcal"
+  }
+}
+PS E:\Daily Calorie Planner>

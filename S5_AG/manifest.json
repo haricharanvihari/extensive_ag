@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Precision Calorie Planner",
+  "version": "1.0",
+  "description": "Multi-step reasoning nutrition planner with mathematical verification.",
+  "permissions": ["http://localhost:8000/*", "storage"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "calorie-planner@reasoning.agent"
+    }
+  }
+}
