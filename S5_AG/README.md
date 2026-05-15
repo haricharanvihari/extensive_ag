@@ -47,6 +47,9 @@ The core prompt is qualified against the **F1 Criteria** for structured reasonin
   <img src="./icon.png" width="250" alt="Watch the Demo here">
 </a>
 
+## Log txt
+[View Sample_Log txt](./log.txt)
+
 ## Installation (Developer / Local)
 
 ### 1. Firefox Extension
